@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Duke Vepruar Theatre | A New Voice in Independent Theatre</title>
+  <meta name="description" content="Duke Vepruar Theatre is a brand new independent theatre company. Bold stories, original productions, unforgettable nights." />
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- OVERLAYS -->
+  <div class="vignette"></div>
+  <div class="film-grain"></div>
+  <div class="curtain-top"></div>
+
+  <!-- SPOTLIGHTS -->
+  <div class="spotlight spotlight-1"></div>
+  <div class="spotlight spotlight-2"></div>
+  <div class="spotlight spotlight-3"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#founder">Founder</a>
+    <a href="#support">Donate</a>
+    <a href="#updates">Updates</a>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="mask-decor mask-tragedy">&#x1F3AD;</div>
+    <div class="mask-decor mask-comedy">&#x1F939;</div>
+
+    <div class="hero-main">
+      <div class="hero-badge">EST. 2026</div>
+      <h1>Duke Vepruar<br /><span class="gold">Theatre</span></h1>
+      <div class="divider"></div>
+      <p class="subtitle">A New Voice in Independent Theatre</p>
+      <p class="tagline">Bold Stories &bull; Original Productions &bull; Unforgettable Nights</p>
+
+      <button class="ticket-btn" id="ticketBtn">Stay Updated</button>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Discover</span>
+      <div class="scroll-line"></div>
+    </div>
+
+    <svg class="curtain-svg" viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C240,0 480,80 720,40 C960,0 1200,80 1440,40 L1440,80 L0,80 Z" fill="currentColor"/>
+    </svg>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="section-label reveal">About Us</p>
+          <h2 class="reveal reveal-delay-1">Where <span class="gold">Bold Stories</span> Come to Life</h2>
+          <p class="reveal reveal-delay-2">
+            Duke Vepruar Theatre is a brand new independent theater company built on the belief that the stage is a place for raw, unflinching storytelling. We are founded on a passion for original works that challenge, move, and inspire.
+          </p>
+          <p class="reveal reveal-delay-2">
+            We champion new voices and bold narratives — stories that dare to be different. Our productions are intimate, immersive, and fiercely original. We are currently building our debut season and cannot wait to share what we are creating.
+          </p>
+          <p class="reveal reveal-delay-3" style="margin-top: 20px; font-family: var(--font-alt); font-style: italic; color: var(--gold); font-size: 0.95rem;">
+            &ldquo;The stage is not a refuge — it is a battleground for the soul.&rdquo;
+          </p>
+        </div>
+        <div class="about-visual reveal reveal-delay-1">
+          <div class="empty-theater">
+            <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0" y="220" width="400" height="80" fill="#1a1410" rx="2" />
+              <rect x="30" y="222" width="340" height="4" fill="#2a2018" rx="1" />
+              <rect x="30" y="230" width="340" height="1" fill="rgba(201,168,76,0.08)" />
+              <path d="M0 0 L100 0 L80 160 L90 200 L70 220 L0 220 Z" fill="rgba(139,0,0,0.4)" />
+              <path d="M0 0 L80 0 L65 140 L75 180 L55 200 L0 200 Z" fill="rgba(139,0,0,0.25)" />
+              <path d="M400 0 L300 0 L320 160 L310 200 L330 220 L400 220 Z" fill="rgba(139,0,0,0.4)" />
+              <path d="M400 0 L320 0 L335 140 L325 180 L345 200 L400 200 Z" fill="rgba(139,0,0,0.25)" />
+              <rect x="0" y="0" width="400" height="18" fill="rgba(139,0,0,0.5)" rx="2" />
+              <rect x="0" y="0" width="400" height="6" fill="rgba(201,168,76,0.15)" />
+              <rect x="40" y="40" width="320" height="180" fill="rgba(10,8,8,0.6)" rx="4" />
+              <rect x="42" y="42" width="316" height="176" stroke="rgba(201,168,76,0.08)" strokeWidth="1" fill="none" rx="4" />
+              <circle cx="120" cy="24" r="4" fill="rgba(201,168,76,0.2)" />
+              <circle cx="200" cy="22" r="5" fill="rgba(201,168,76,0.25)" />
+              <circle cx="280" cy="24" r="4" fill="rgba(201,168,76,0.2)" />
+              <path d="M200 22 L100 200 L300 200 Z" fill="url(#beamGrad)" opacity="0.06" />
+              <line x1="30" y1="252" x2="370" y2="252" stroke="rgba(255,255,255,0.03)" strokeWidth="1" />
+              <line x1="30" y1="270" x2="370" y2="270" stroke="rgba(255,255,255,0.02)" strokeWidth="1" />
+              <rect x="95" y="42" width="10" height="178" fill="rgba(0,0,0,0.3)" />
+              <rect x="295" y="42" width="10" height="178" fill="rgba(0,0,0,0.3)" />
+              <defs>
+                <linearGradient id="beamGrad" x1="0.5" y1="0" x2="0.5" y2="1">
+                  <stop offset="0%" stop-color="#e8d48b" />
+                  <stop offset="100%" stop-color="transparent" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOUNDER ===== -->
+  <section class="founder" id="founder">
+    <div class="container">
+      <div class="founder-grid">
+        <div class="founder-text">
+          <p class="section-label reveal">Founder &amp; Artistic Director</p>
+          <h2 class="reveal reveal-delay-1"><span class="gold">Ardi Ajeti</span></h2>
+          <p class="founder-role reveal reveal-delay-1">Visionary &bull; Playwright &bull; Director</p>
+          <p class="reveal reveal-delay-2">
+            Ardi Ajeti is the founding force behind Duke Vepruar Theatre. With a deep love for the transformative power of live performance, Ardi founded this company to create a home for bold, original works that push the boundaries of independent theatre.
+          </p>
+          <p class="reveal reveal-delay-2">
+            A writer and director at heart, Ardi believes that theatre should be visceral, honest, and unapologetically human — a space where stories that matter are given the stage they deserve.
+          </p>
+          <p class="founder-signature reveal reveal-delay-3">&mdash; Ardi Ajeti</p>
+        </div>
+        <div class="founder-portrait reveal reveal-delay-1">
+          <div class="portrait-glow"></div>
+          <div class="portrait-frame">
+            <img
+              src="founder.jpg"
+              alt="Ardi Ajeti — Founder & Artistic Director"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SUPPORT ===== -->
+  <section class="support" id="support">
+    <div class="container">
+      <div class="support-inner">
+        <div class="support-icon">&#x2764;</div>
+        <p class="section-label reveal">Support Us</p>
+        <h2 class="reveal reveal-delay-1">Want to <span class="gold">Support</span> Our Vision?</h2>
+        <p class="reveal reveal-delay-2">
+          Every great production begins with a community that believes in it. Your contribution helps us bring bold, original stories to the stage — from set design and costumes to venue rental and artist stipends.
+        </p>
+        <a href="https://gofund.me/c4a8642f3" target="_blank" rel="noopener noreferrer" class="donate-btn reveal reveal-delay-3">Make a Donation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BANNER ===== -->
+  <section class="banner" id="updates">
+    <div class="banner-inner">
+      <div class="banner-icon">&#x1F3F0;</div>
+      <h3 class="reveal">Coming Soon</h3>
+      <p class="reveal reveal-delay-1">
+        We are currently a brand new theater company and website. More updates coming soon.
+      </p>
+      <div class="banner-dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-logo">Duke Vepruar <span class="gold">Theatre</span></div>
+    <p class="footer-sub">A New Voice in Independent Theatre</p>
+    <div class="footer-divider"></div>
+    <p class="footer-text">
+      &copy; 2026 Duke Vepruar Theatre. All rights reserved.
+    </p>
+  </footer>
+
+  <!-- ===== TICKET MODAL (hidden by default) ===== -->
+  <div class="modal-overlay" id="ticketModal" style="display: none;">
+    <div class="modal-content" id="modalContent">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div id="modalBody">
+        <h2>Stay in the Spotlight</h2>
+        <div class="modal-divider"></div>
+        <p>Subscribe for exclusive updates on our debut season, behind-the-scenes content, and early access to tickets.</p>
+        <form id="subscribeForm">
+          <input type="email" class="modal-field" id="emailField" placeholder="Enter your email" required />
+          <button type="submit" class="modal-submit">Subscribe</button>
+        </form>
+      </div>
+      <div id="modalSuccess" style="display: none;">
+        <h2>You're In.</h2>
+        <div class="modal-divider"></div>
+        <p id="successText">Thank you. We'll be in touch when the curtain rises.</p>
+        <button class="ticket-btn" id="modalCloseBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="script.js"></script>
+</body>
+</html>
