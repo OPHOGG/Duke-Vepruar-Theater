@@ -1,0 +1,54 @@
+DUKE VEPRUAR THEATRE — SITE PROGRESS
+======================================
+Last updated: 24 May 2026
+
+STRUCTURE
+---------
+ardi-theator/
+  index.html     — Full static HTML (no framework)
+  styles.css     — Dark cinematic theme (curtain, spotlights, grain, responsive)
+  script.js      — Vanilla JS (reveal anims, parallax, typewriter, countdown, modal)
+  founder.jpg    — Local founder portrait
+
+SECTIONS
+--------
+1. HERO
+   - Title, subtitle, tagline
+   - "Stay Updated" button → opens email subscribe modal
+   - Scroll indicator ("Discover")
+   - Overlays: vignette, film grain, curtain top, spotlights (parallax on mousemove)
+
+2. ABOUT
+   - 2-column grid: text + theater stage SVG
+   - Scroll reveal animations
+
+3. FOUNDER
+   - Ardi Ajeti bio + portrait (local file: founder.jpg)
+   - Scroll reveal animations
+
+4. SUPPORT
+   - "Want to Support Our Vision?" section
+   - 4 donation tiers: Friend ($10), Patron ($25), Producer ($50), Angel ($100+)
+   - "Make a Donation" button → placeholder for Stripe
+
+5. BANNER (Coming Soon)
+   - Live countdown timer (3 months from now)
+
+6. FOOTER
+   - Copyright
+
+INTERACTIVE FEATURES
+--------------------
+- Scroll reveal animations (IntersectionObserver)
+- Smooth nav anchor scrolling
+- Typewriter effect on tagline
+- Parallax spotlights on mouse move
+- Curtain shadow fades on scroll
+- Live countdown to launch
+- Email subscribe modal (form + success state)
+
+TODO
+----
+- Wire "Make a Donation" button to Stripe Payment Link
+- Add more production/show content as it develops
+- Any additional polish
